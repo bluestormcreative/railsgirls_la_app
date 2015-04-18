@@ -6,7 +6,8 @@
       <div class="col-md-4 adventure-group">
         <%= image_tag adventure.picture_url, width: '100%' if adventure.picture.present?%>
         <h4><%= link_to adventure.name, adventure %></h4>
-        <%= adventure.description %>
+        <p><%= adventure.description %></p>
+        <p><%= adventure.visit %></p>
       </div>
       <% end %>
   </div>
