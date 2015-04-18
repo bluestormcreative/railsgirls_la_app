@@ -20,4 +20,9 @@ table, td, th { vertical-align: middle; border: none; }
 th { border-bottom: 1px solid #DDD; }
 .adventure-group {
 	margin-bottom:40px;
+	padding:20px;
+	background:#efefef;
 }
+
+.adventure-group h4 {text-transform: uppercase; letter-spacing: 1px;}
+.adventure-group img {padding: 3px; background:white; border:1px solid #ddd; border-radius:3px;}
