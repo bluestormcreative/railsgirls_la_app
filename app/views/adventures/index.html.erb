@@ -4,10 +4,23 @@
   <div class="row">
     <% group.compact.each do |adventure| %>
       <div class="col-md-4 adventure-group">
-        <%= image_tag adventure.picture_url, width: '100%' if adventure.picture.present?%>
+
+      <% if (adventure.picture.present?) %>
+
+       <%= link_to(adventure) do %>
+          
+          <%= image_tag adventure.picture_url, width: '100%' %>
+
+      <% end %>
+        
+     <% end %>
+
+
+
         <h4><%= link_to adventure.name, adventure %></h4>
         <p><%= adventure.description %></p>
-        <p><%= adventure.visit %></p>
+        <p><%= t = adventure.visit 
+              t.strftime("%B %d, %Y") %></p>
       </div>
       <% end %>
   </div>

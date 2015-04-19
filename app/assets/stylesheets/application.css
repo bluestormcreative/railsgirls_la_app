@@ -26,3 +26,15 @@ th { border-bottom: 1px solid #DDD; }
 
 .adventure-group h4 {text-transform: uppercase; letter-spacing: 1px;}
 .adventure-group img {padding: 3px; background:white; border:1px solid #ddd; border-radius:3px;}
+
+.actions input[type=submit] {
+	background:#951c1d;
+	border:none;
+	border-radius:3px;
+	margin:10px 0;
+	color:white;
+}
+
+.actions input[type=submit]:hover {
+	background:#faa72b;
+}
