@@ -22,6 +22,7 @@ th { border-bottom: 1px solid #DDD; }
 	margin-bottom:40px;
 	padding:20px;
 	background:#efefef;
+	min-height:400px;
 }
 
 .adventure-group h4 {text-transform: uppercase; letter-spacing: 1px;}
